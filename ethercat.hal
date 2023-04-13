@@ -137,3 +137,14 @@ net 	z-pos-fb    => joint.2.motor-pos-fb   <= cia402.2.pos-fb
 
 #homing
 net z-home-index <= joint.2.index-enable  => cia402.2.home
+
+#########################################
+#    Home
+#########################################
+
+net shared-home-sw lcec.0.4.din-2
+net shared-home-sw => joint.0.home-sw-in
+net shared-home-sw => joint.1.home-sw-in
+net shared-home-sw => joint.2.home-sw-in
+
+#net x-home-sw lcec.0.4.din-2 => joint.0.home-sw-in
