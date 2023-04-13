@@ -69,5 +69,10 @@
 				</pdo>
 			</syncManager>
 		</slave>
+		<slave idx="4" type="EK1100"/>
+		<slave idx="5" type="EL1008"/>
+		<slave idx="6" type="EL2008"/>
+
+		
 	</master>	
 </masters>
